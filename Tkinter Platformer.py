@@ -6,7 +6,7 @@ class Window(Frame): #Inherits from frame
     def __init__(self, Master=None):
         self.Started=False #Variable to check if the game has started
         #Frame.__init__(self, Master)
-        Frame=Frame(Root, width=1280, height=720)
+        #Frame=Frame(Root, width=1280, height=720)
         self.Master=Master
         self.InitWindow()
 
